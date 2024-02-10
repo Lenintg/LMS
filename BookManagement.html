@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> Book Management</title>
+<meta charset="utf-8">
+<style>
+    body {
+      background-image: url('C:/Users/91917/Desktop/LMSbg14.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+     h1,h3,div{
+           margin: 5px;;
+           padding: 5px;;
+     }
+     
+     td {
+      background-size:cover;
+
+     }
+      .fixed {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .full{
+        height: 300px;
+        width:90%;
+        background-color: coral;
+        position:relative;
+        
+      }
+      .single{
+        height: 200px;
+        width:10%;
+        background-color: rgb(252, 250, 249);
+        align-items:start;
+        position:absolute;
+        
+      }
+    </style>
+</head>
+<body>
+<div id="header" class="fixed">
+    <center><h1 style="font-size: 40px; background-color:rgba(6, 6, 6, 0.7);color:White;"><center><i><a href="#" style="color: beige;">Go Back to Top </a></i></center></h1> </center>
+
+</div>
+<BR><BR><BR>
+<center>
+<span style="color:rgb(174, 35, 39);">
+    <p align="right" top="0" padding="0">Go Back Home</p><a href=""><img src="C:/Users/91917/Desktop/home.gif" height=60px width="60px" align="right"/> </a></div>
+
+
+<div class ="container" style="background-color:rgba(0, 0, 0, 0); ">
+  
+    <form id="test">
+        <label style="background-color:blue;color:white;">Search</label> 
+        <select name="searchopt">
+        <option value="Title">Book Title </option>
+        <option value="Author">Author </option>
+        <option value="Genre">Genre</option>
+        </select>
+        <input type="text" size="50"/> <input type="Submit" value="Search"/>
+        <BR><BR>
+    </form>
+    <table border="1" align="center" cellspacing="1"cellpadding="3" width="60%" style="background-color: rgba(129, 125, 124, 0.5);">
+    <thead align="center" style="background-color:rgb(94, 24, 24);color:rgb(255, 255, 255);"> <td><b>Cover Page</b></td> <td><b>Author</b></td><td><b>Times rented</b></td><td><b>Avg User Rating</b></td><td><b>Actions</b></td></thead>
+    <tbody style="background-color: rgba(226, 222, 222, 0.5);font-size:20px;">
+    <tr> <td align="center" cellpadding="2"cellspacing="1"><img src="C:/Users/91917/Desktop/bookimage1.png" height="80px" width=auto ></td> <td width="50%" style=""><h5 style="color:rgb(211, 17, 17);font-size: 25px;margin:0%;padding:0%;">The Second World War </h5><p style="color:rgb(255, 255, 255);margin:0%;padding:0%;font-size:20px;background-color:rgb(121, 121, 205);">Author(s): Roosevelt </p></td><td align="center"><p style="color:rgb(174, 35, 39);">541</p></td><td width="10%" align="center"> 5 Stars</td><td><img src="C:/Users/91917/Desktop/preview.png" height="30px" width="50 px"><img src="C:/Users/91917/Desktop/request.png" height="30 px" width="50 px"></td></tr>
+    <tr> <td align="center" cellpadding="2"cellspacing="1"><img src="C:/Users/91917/Desktop/bookimage2.jpg" height="80px" width=auto ></td> <td width="50%" style=""><h5 style="color:rgb(211, 17, 17);font-size: 25px;margin:0%;padding:0%">Wierd Tales </h5><p style="color:rgb(255, 255, 255);margin:0%;padding:0%;background-color:rgb(121, 121, 205);">Author(s): Madhan Kumar Sundaramoorthy </p></td><td align="center"><p style="color:rgb(174, 35, 39);">43</p></td><td width="10%" align="center"> 3 Stars</td><td><img src="C:/Users/91917/Desktop/preview.png" height="30px" width="50 px"><img src="C:/Users/91917/Desktop/request.png" height="30 px" width="50 px"></td></tr>
+    <tr> <td align="center" cellpadding="2"cellspacing="1"><img src="C:/Users/91917/Desktop/bookimage3.jpg" height="80px" width=auto ></td> <td width="50%" style=""><h5 style="color:rgb(211, 17, 17);font-size: 25px;margin:0%;padding:0%">The Great Gatsby </h5><p style="color:rgb(255, 255, 255);margin:0%;padding:0%;background-color:rgb(121, 121, 205);">Author(s): Scotz-Fitzgerald </p></td><td align="center"><p style="color:rgb(174, 35, 39);">12</p></td><td width="10%" align="center"> 2 Stars</td><td><img src="C:/Users/91917/Desktop/preview.png" height="30px" width="50 px"><img src="C:/Users/91917/Desktop/request.png" height="30 px" width="50 px"></td></tr>
+  </tbody>
+    </table>
+
+
+<!--     <table width="100%" color="white" cellspacing="2" cellpadding="10" border="0">
+      <thead align="center"  style="background-color:blueviolet;color:white">
+        <td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td>
+      </thead>
+      <tbody align="center" style="background-color:blueviolet;color:white">
+        <tr><td height="200px" > First</td><td height="200px">Second</td><td height="200px">Third</td><td height="200px">Fourth</td><td height="200px">Fifth</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        
+      </tbody>
+
+    </table>
+    <br>
+    <table width="100%" color="white" cellspacing="2" cellpadding="10" border="0">
+      <thead align="center"  style="background-color:blueviolet;color:white">
+        <td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td>
+      </thead>
+      <tbody align="center" style="background-color:blueviolet;color:white">
+        <tr><td height="200px" > First</td><td height="200px">Second</td><td height="200px">Third</td><td height="200px">Fourth</td><td height="200px">Fifth</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        
+      </tbody>
+    </table>
+    <br>
+
+    <table width="100%" color="white" cellspacing="2" cellpadding="10" border="0">
+      <thead align="center"  style="background-color:blueviolet;color:white">
+        <td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td>
+      </thead>
+      <tbody align="center" style="background-color:blueviolet;color:white">
+        <tr><td height="200px" > First</td><td height="200px">Second</td><td height="200px">Third</td><td height="200px">Fourth</td><td height="200px">Fifth</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        <tr><td>Column 1</td> <td>Column 2</td> <td> Column 3</td><td>Column 4</td><td>Column 5</td></tr>
+        
+      </tbody>
+    </table>
+    <br> -->
+</div>
+
+
+</center>
+
+</body>
+</html> 

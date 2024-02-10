@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> Section Management Summary</title>
+<meta charset="utf-8">
+<style>
+   
+
+table{
+    font-size: 20px;
+    margin:0;
+    padding:0;
+
+}
+td{
+    width:max-content;
+    margin:0;
+    padding:0;
+
+}
+.active{
+    background-color: black;
+}
+
+.leftbox{
+        height:1400px;
+        width:15%;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(222, 203, 109);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding:15px;
+        margin:0px;
+        background-color: rgb(152, 166, 89);
+        font-size: large;
+        line-height: 40px;
+
+    
+}
+.leftbox a{
+    margin:0px;
+    padding:0px;
+    font-size: large;
+    color:white;
+
+}
+
+.leftbox a:hover{
+background-color: rgb(0, 0, 0);
+
+}
+
+.leftbox :active{
+    background-color: black;
+}
+.rightbox{
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 85%;
+    }
+.container{
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin:0;
+}
+</style>
+</head>
+<body>
+    <div>
+       <h1 align="center" style="background-color: rgb(139, 54, 54);color:white;padding:0;margin:0;"> Section Management</h1>
+    </div>
+<div class="container">
+    <div class="leftbox">
+        <br>
+
+        <a href="AllCrud.html" class="active">Summary</a><br>
+        <a href="AddSection.html">Add New / Edit Section </a><br>
+        <a href="DeleteSection.html"> Delete a Section </a><br>
+        <a href="AssignRemoveSection.html"> Assign / Remove section to a Book</a>
+    </div>
+    <div class="rightbox">
+            <table id="sectable" border="1" align="right" width="100%">
+            <thead align="center" style="background-color:rgb(194, 87, 44);color:white;"><tr><td>Section ID</td><td>Section Name</td><td>Section Description</td><td>Section Book Count</td></tr></thead>
+            <tbody>
+                <tr><td>FAN</td><td>Fantasy</td><td>This book genre is characterized by elements of magic or the supernatural and is often inspired by mythology or folklore. In high fantasy — one that’s set in an entirely fictional world — these magical elements are at the forefront of the plot, as in Trudi Canavan’s Black Magician trilogy. In low fantasy or magical realism, however, magic is subtly woven into an otherwise familiar, real-world setting. You can delve into fantasy’s many subgenres to get to know your Arcanepunk from your Flintlock, and find your book’s home!</td><td align="center">5</td></tr>
+                <tr><td>SCI</td><td>Science Fiction</td><td>Though science fiction and fantasy are often considered two sides of the same (speculative fiction) coin, sci-fi is distinguished by its preoccupation with real or real-feeling science. Lots of sci-fi is set in the distant future, which makes it a seedbed for stories about time travel and space exploration. But your science fiction novel doesn’t need to be inspired by “hard” science like physics and astronomy. Some of the books in this genre reflect on “soft” sciences, such as sociology and anthropology, to predict the future of the human race — more on that next!	</td><td align="center">21</td></tr>
+                <tr><td>ACT</td><td>Action & Adventure	</td><td>If you’re writing adventure, then chances are your book follows the structure of the Hero’s Journey. Your protagonist has a very important goal to achieve, but they’re really going to have to go through the wringer first! You throw up obstacle after obstacle, putting your hero in downright dangerous situations but eventually, they triumph and return home transformed. The action and adventure genre also complements a huge range of others, which means it has its fingers in everything from fantasy novels like The Hobbit to classic romance like Jane Eyre.	</td><td align="center">9</td></tr>
+                <tr><td>MYS</td><td>Mystery	</td><td>Also called detective fiction, this book genre is characterized by a gripping plot that revolves around a mystery — but hopefully, you’ve cracked that clue! The setting, characters, and tone of your book will determine precisely which category it falls under: cozy mystery, hardboiled, or something in between. But at the core of any mystery is a crime that must be solved by the protagonist. To get a sense of the clever trail of clues that’s so vital to this genre, check out Murder on the Orient Express by Agatha Christie — the grande dame of mystery fiction.	</td><td align="center">15</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>  
+</center>
+</body>
+</html> 
